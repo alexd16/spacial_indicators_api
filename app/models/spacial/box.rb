@@ -81,6 +81,10 @@ class Spacial::Box
     tr.x
   end
 
+  def diagonal
+    Math::sqrt(real_width**2 + real_height**2)
+  end
+
   def real_width
     if( (min_longitude < 0 && max_longitude > 0 ))
       middle = Spacial::Point.new(0, min_latitude)

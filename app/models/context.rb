@@ -8,6 +8,8 @@ class Context
   field :context_indicators, type: Array 
   field :zoomLevel
   field :pointsDrawn
+  field :numberOfObjects
+  field :note
 
   belongs_to :dataset
 
@@ -16,7 +18,7 @@ class Context
   end
 
   def slice_box
-    Spacial::Box.from_hash(sliceBounds) if sliceBounds
+    Spacial::Box.from_hash(sliceBounds) if sliceBounds && !sliceBounds.empty?
   end
 
   def data

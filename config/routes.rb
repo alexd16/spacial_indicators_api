@@ -6,7 +6,9 @@ SpacialIndicatorsApi::Application.routes.draw do
 
     resources :indicators, only: [:index]
 
-    resources :contexts, only: [:index, :show, :create]
+    resources :contexts, only: [:index, :show, :create] do
+      member { get :data}
+    end
   end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

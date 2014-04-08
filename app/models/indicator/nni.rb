@@ -40,7 +40,7 @@ class Indicator::NNI
 
   def influence_values
     config["influence"].map do |value| 
-      width = context.bounding_box.real_width
+      width = context.bounding_box.diagonal
       influence = width * (INFLUENCE_MAPPING[value])
       #binding.pry
       [value, influence] 

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"rea",
+				"real_width"
+			],
+			[
 				"real",
 				"real_height"
 			],
@@ -510,20 +514,48 @@
 			[
 				"tree",
 				"trees"
-			],
-			[
-				"objec",
-				"objects_distribution"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "app/controllers/api/contexts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 657,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/models/context.rb",
 			"settings":
 			{
-				"buffer_size": 1061,
+				"buffer_size": 1123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/dataset.rb",
+			"settings":
+			{
+				"buffer_size": 1106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/spacial/box.rb",
+			"settings":
+			{
+				"buffer_size": 1952,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1876,
 				"line_ending": "Unix"
 			}
 		}
@@ -579,13 +611,22 @@
 	},
 	"file_history":
 	[
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/models/context.rb",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/config/initializers/numeric_extension.rb",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/models/dataset.rb",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/controllers/api/datasets_controller.rb",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/assets/stylesheets/api/datasets.css.scss",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/controllers/api/contexts_controller.rb",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/helpers/api/contexts_helper.rb",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/config.ru",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/config/environment.rb",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/views/layouts/application.html.erb",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/vendor/assets/javascripts/.keep",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/assets/javascripts/api/indicators.js.coffee",
+		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/models/spacial/box.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/models/indicator/nni.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/models/spacial/point.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/db/seeds.rb",
-		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/models/spacial/box.rb",
-		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/controllers/api/contexts_controller.rb",
-		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/config.ru",
-		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/models/context.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/Gemfile",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/config/application.rb",
 		"/home/alexd16/Documents/projects/thesis/rclutering/grid.rb",
@@ -594,14 +635,12 @@
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/models/indicator/grid_cell_frequency.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/assets/stylesheets/api/contexts.css.scss",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/public/422.html",
-		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/models/dataset.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/config/boot.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/bin/bundle",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/config/environments/production.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/controllers/api/indicators_controller.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/models/indicator.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/spacial_indicators_api.sublime-project",
-		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/app/controllers/api/datasets_controller.rb",
 		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis_api/app/models/dataset.rb",
 		"/home/alexd16/Documents/projects/thesis/spacial_indicators/spacial_indicators_api/config/database.yml",
 		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis_api/config/application.rb",
@@ -699,14 +738,7 @@
 		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/node_modules/gulp-connect/node_modules/tiny-lr/node_modules/faye-websocket/spec/faye/websocket/draft75parser_spec.js",
 		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/bower_components/leaflet.draw/src/draw/handler/Draw.Feature.js",
 		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/node_modules/gulp/node_modules/vinyl-fs/lib/src/readDir.js",
-		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/node_modules/gulp/node_modules/liftoff/lib/file_search.js",
-		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/bower_components/bootstrap/less/forms.less",
-		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/bower_components/angular-ui-router/src/stateDirectives.js",
-		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/node_modules/url/node_modules/punycode/vendor/requirejs/tests/configRequirejs.html",
-		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/bower_components/nvd3/Makefile",
-		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/bower_components/bootstrap/less/mixins.less",
-		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/node_modules/multi-glob/lib/multi-glob.js",
-		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/gulpfile.js"
+		"/home/alexd16/Documents/projects/spacial_analysis_project/spacial_analysis/node_modules/gulp/node_modules/liftoff/lib/file_search.js"
 	],
 	"find":
 	{
@@ -846,132 +878,58 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/models/context.rb",
+					"file": "app/controllers/api/contexts_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1061,
+						"buffer_size": 657,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								247,
-								236
+								431,
+								431
 							]
 						],
 						"settings":
 						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/context.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1123,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
+								286,
+								286
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -981,6 +939,96 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/dataset.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/spacial/box.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								433,
+								448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1037,12 +1085,28 @@
 				"app/models/context.rb"
 			],
 			[
-				"seeds",
-				"db/seeds.rb"
+				"context",
+				"app/controllers/api/contexts_controller.rb"
 			],
 			[
 				"box",
 				"app/models/spacial/box.rb"
+			],
+			[
+				"dataset",
+				"app/models/dataset.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"datasetcon",
+				"app/controllers/api/datasets_controller.rb"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
 			],
 			[
 				"app",
@@ -1057,10 +1121,6 @@
 				"app/controllers/api/contexts_controller.rb"
 			],
 			[
-				"route",
-				"config/routes.rb"
-			],
-			[
 				"contsc",
 				"app/controllers/api/contexts_controller.rb"
 			],
@@ -1073,20 +1133,12 @@
 				"db/seeds.rb"
 			],
 			[
-				"dataset",
-				"app/models/dataset.rb"
-			],
-			[
 				"point",
 				"app/models/spacial/point.rb"
 			],
 			[
 				"gem",
 				"Gemfile"
-			],
-			[
-				"context",
-				"app/controllers/api/contexts_controller.rb"
 			],
 			[
 				"contex",
