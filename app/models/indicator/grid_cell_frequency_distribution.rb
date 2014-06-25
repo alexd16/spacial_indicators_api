@@ -1,4 +1,4 @@
-class Indicator::GridCellFrequency
+class Indicator::GridCellFrequencyDistribution
 
   attr_reader :context, :context_indicator, :config
   def initialize(context, context_indicator)
@@ -11,7 +11,7 @@ class Indicator::GridCellFrequency
     matrix = Array.new(number_horizontal_cells + 1) { Array.new(number_vertical_cells + 1,0 ) }
     points = context.data
     result = grid_cell_frequency(matrix, points)
-    type = 'pair_collection'
+    type = 'long_value_collection'
     {result: result, type: type}
   end
 
@@ -27,19 +27,26 @@ class Indicator::GridCellFrequency
     formated_matrix = matrix.each_with_index.map do |row, x|
       row.each_with_index.map do |cell_count, y|
         if(config['growth'] == 'Logaritmic')
-          {x: x, y: y, size: Math.log(cell_count)}
+          cell_count.to_f**(1/3.0)
         elsif(config['growth'] == 'Exponencial')
-          {x: x, y: y, size: Math.exp(cell_count)}
+          cell_count.to_f**3
         else
-          {x: x, y: y, size: cell_count}
+          cell_count.to_f
         end
       end
     end
-    formated_matrix.flatten
+    binding.pry
+    formated_matrix = formated_matrix.flatten
+    formated_matrix = formated_matrix.map{|value| value/formated_matrix.reduce(:+)}.sort_by {|value| -value}
+    result = formated_matrix.each_with_index.map do |cell_count, index|
+      sum = formated_matrix[index..formated_matrix.size-1].reduce(:+)
+      [index, sum]
+    end
+    result
   end
 
   def cell_percentage
-    @config['grid_cell_fraction'].to_f 
+    @config['grid_cell_fraction'].to_f
   end
 
   def number_horizontal_cells

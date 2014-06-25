@@ -20,5 +20,24 @@ Indicator.create(
   name: 'Grid Cell Frequency',
   klass_name: 'Indicator::GridCellFrequency',
   params: [
+    {name: 'growth', type: 'single_options_list', options: ['Logaritmic', 'Linear', 'Exponencial'], default: 'Linear'},
+    {name: 'grid_cell_fraction', type: 'value', default: 10.00}
+  ]
+)
+
+Indicator.create(
+  name: 'Grid Cell Frequency Distribution',
+  klass_name: 'Indicator::GridCellFrequencyDistribution',
+  params: [
+    {name: 'growth', type: 'single_options_list', options: ['Logaritmic', 'Linear', 'Exponencial'], default: 'Linear'},
+    {name: 'grid_cell_fraction', type: 'value', default: 10.00}
+  ]
+)
+
+Indicator.create(
+  name: 'Nearest Neighbour Distance Cumulative Distribution',
+  klass_name: 'Indicator::NNDistanceCumulativeDistribution',
+  params: [
+    {name: 'growth', type: 'single_options_list', options: ['Logaritmic', 'Linear', 'Exponencial'], default: 'Linear'}
   ]
 )
